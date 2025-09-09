@@ -74,6 +74,20 @@ class Pr003 {
 		}
 		System.out.println();	
 
+		//Использование логических типов данных
+		varb = false;
+		System.out.println("Значение vard: " + varb);
+
+		varb = true;
+		System.out.println("Значение vard: " + varb);
+
+		if(varb)
+			System.out.println("Выполняется, если varb == true");
+		varb = false;
+		if(varb)
+			System.out.println("Выполняется, если varb == true");
+
+		System.out.println("Результат логического сравнения 10>9: " + (10>9));
 
 	}	
 }
